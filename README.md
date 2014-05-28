@@ -1,6 +1,6 @@
 # Hybrid-Image
 
-#### About
+### About
 
 This project is based on the paper “Hybrid images(by A. Oliva, A. Torralba, P.G. Schyns)”.
 
@@ -16,31 +16,31 @@ This project is based on the paper “Hybrid images(by A. Oliva, A. Torralba, P.
 
 ###### Due to such a guideline and to be dramatic, here are the two pictures I choose.
 
-![alt text](https://github.com/wxue/Hybrid-Image/tangsengnew.jpg "tangseng")
+![alt text](https://github.com/wxue/Hybrid-Image/blob/master/tangsengnew.jpg "tangseng")
 
-![alt text](https://github.com/wxue/Hybrid-Image/wukongnew.jpg "wukongnew")
+![alt text](https://github.com/wxue/Hybrid-Image/blob/master/wukongnew.jpg "wukongnew")
 
-##### Gaussian Filter:
+#### Gaussian Filter:
 I use fspecial() function to implement gaussian low-pass filter.
 After testing, I set the thread Sigma value to 8 with hsize vector [30 30]. 
 Filter result shown as follow:  
 
-![alt text](https://github.com/wxue/Hybrid-Image/G_filtered.jpg "G_filtered")
+![alt text](https://github.com/wxue/Hybrid-Image/blob/master/G_filtered.jpg "G_filtered")
  
-##### Laplacian Filter:
+#### Laplacian Filter:
 
 Then I use fspecial() function to implement laplacian high-pass filter.
 After testing, I set the thread alpha value to 0.8. 
 Filter result shown as follow:
 
-![alt text](https://github.com/wxue/Hybrid-Image/L_filtered.jpg "L_filtered")
+![alt text](https://github.com/wxue/Hybrid-Image/blob/master/L_filtered.jpg "L_filtered")
 
 
-##### Hybrid:
+#### Hybrid:
 
 Take a result of 0.5 rate low frequence image hybrid with 0.8 rate high frequence image, demo as follow.
 
-![alt text](https://github.com/wxue/Hybrid-Image/demo.jpg "demo")
+![alt text](https://github.com/wxue/Hybrid-Image/blob/master/demo.jpg "demo")
 
    
 #### Notice:
@@ -51,7 +51,7 @@ Few things need to be careful about:
 
 * Laplacian filter is a 2-D filter so we need to convert the image from rgb to hsv and use its v-dimension to do the filtering.
 
-##### License
+### License
 
 The MIT License (MIT)
 
