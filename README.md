@@ -4,7 +4,6 @@
 
 This project is based on the paper “Hybrid images(by A. Oliva, A. Torralba, P.G. Schyns)”.
 
-> This is a small project I practiced on [Professor Hua's](http://www.cs.stevens.edu/~ghua/) 2014 Spring [Computer Vision Class ](http://www.cs.stevens.edu/~ghua/ghweb/Teaching/CS558Spring2014.htm) at Stevens Institute of Technology.
 
 ###### As mentioned in the paper “Hybrid images(by A. Oliva, A. Torralba, P.G. Schyns)”. To obtain a esthetical hybrid image, there are certain things we should concern first:
 
@@ -50,6 +49,8 @@ Few things need to be careful about:
 * I use double value type to store the image matrix because it always get better result than using int8. 
 
 * Laplacian filter is a 2-D filter so we need to convert the image from rgb to hsv and use its v-dimension to do the filtering.
+
+> Credits to [Professor Hua's](http://www.cs.stevens.edu/~ghua/)
 
 ### License
 
