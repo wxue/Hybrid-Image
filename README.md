@@ -50,7 +50,7 @@ Few things need to be careful about:
 
 * Laplacian filter is a 2-D filter so we need to convert the image from rgb to hsv and use its v-dimension to do the filtering.
 
-> Credits to [Professor Hua's](http://www.cs.stevens.edu/~ghua/)
+> Credits to [Professor Hua](http://www.cs.stevens.edu/~ghua/)
 
 ### License
 
